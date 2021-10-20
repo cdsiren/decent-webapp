@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homepage-div {
+    @apply flex flex-col justify-center items-center bg-purple-100 h-screen font-Headers py-40;
+}
+
+.center-content {
+    @apply flex flex-col justify-center items-center;
+}
+
+.image-format {
+    @apply h-full rounded mb-20 shadow;
+}
+
+.my-button {
+    @apply rounded-full text-sm shadow-lg py-1 px-2 bg-purple-700 hover:to-green-200 transition duration-300 ease-in-out text-white;
+}
+
+.hero-button {
+    @apply py-2 px-6 rounded-full lg:text-xl md:text-lg sm:text-xs bg-gradient-to-r from-green-200 to-purple-200 via-blue-300 hover:from-purple-200 hover:to-green-200 hover:via-blue-300 transition duration-300 ease-in-out flex text-purple-700 font-Headers;
+}
+
+.navbar {
+    @apply flex justify-between items-center h-14 text-purple-700 relative shadow-md font-Headers bg-transparent z-50;
+    position: fixed;
+    width: 100%;
+}
+
+.linear-wipe {
+   @apply lg:text-9xl md:text-8xl sm:text-7xl text-7xl mb-10 items-center font-sans font-Headers font-extrabold;
+        
+   text-transform: uppercase;
+   background-image: linear-gradient(to right, #40ffac, #40ffff, #7a69ff,#5d00ff,#40ffac);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   
+   background-size: 300%;
+   background-position: -100%;
+
+   animation: animatedText 3.5s infinite alternate-reverse;
+  }
+
+  @keyframes animatedText {
+    from{
+        background-position: 0%;
+      }  
+    to{
+        background-position: 100%;
+      }
+  }
+
+  .content-blocks {
+      @apply inline-flex justify-between items-center space-x-16 lg:mx-20 md:mx-16 sm:mx-12;
+      vertical-align: top;
+  }
