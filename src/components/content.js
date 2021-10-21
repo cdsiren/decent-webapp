@@ -11,7 +11,7 @@ const Content = () => {
 
             <Typed />
 
-            <div className='content-blocks mx-4 mb-6'> 
+            <div className='content-blocks mx-4 mb-2'> 
                             
                 <h2 className="inline-block w-2/5 lg:text-7xl md:text-6xl sm:text-5xl text-5xl text-purple-700 font-extrabold align-center">How it <br></br>Works</h2>
 
