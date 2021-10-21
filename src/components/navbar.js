@@ -5,7 +5,7 @@ import { PopupButton } from '@typeform/embed-react';
 
 const Typeform = () => {
     return (
-        <PopupButton id="Xkh00RVd" className="my-button"></PopupButton>
+        <iframe src="https://form.typeform.com/to/Xkh00RVd" width="100%" height="500px" frameborder="0"></iframe>
     );
 }
 
