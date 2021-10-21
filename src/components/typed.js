@@ -8,7 +8,7 @@ class Typed extends React.Component {
             <p className='lg:text-3xl md:text-2xl sm:text-xl text-xl bg-white p-2'> {' '}
                 <Typical
                 steps={["a decentralized label", 1000,"putting artists and fans on the same team", 1000,"a dapp enabling fans to invest in artists", 1000, "an NFT platform where fans can earn artists' royalties", 1000, "a new protocol bringing streaming royalties on chain", 1000]}
-                loop={Infinity}
+                loop={ Infinity }
                 wrapper="b"
                 />
             </p>
