@@ -1,18 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Background from '../images/background-resized.PNG';
-import { PopupButton } from '@typeform/embed-react';
 import TelegramLogo from '../images/telegram.png';
 import TwitterLogo from '../images/twitter.png';
 import DiscordLogo from '../images/discord.png';
-
-
-const Popup = () => {
-    return (
-      <PopupButton id="<Xkh00RVd>" className="my-button">open form 
-      </PopupButton>
-    );
-  }
 
 const Hero = () => {
     return (
@@ -20,7 +11,7 @@ const Hero = () => {
                 <h1 className="linear-wipe my-48">
                     decent
                 </h1>
-                <PopupButton className="hero-button" onClick={ Popup }>
+                <a className="hero-button" href="https://form.typeform.com/to/Xkh00RVd">
                     Join Waitlist 
                     <svg 
                     className="w-6 h-6 ml-2" 
@@ -37,7 +28,7 @@ const Hero = () => {
                         clipRule="evenodd" 
                         />
                     </svg>
-                </PopupButton>
+                </a>
 
                 <div className='flex flex-wrap my-7 justify-items-center space-x-9 table-auto'>
                     <a href='https://discord.gg/KE59zuBG'>
