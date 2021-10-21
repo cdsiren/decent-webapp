@@ -5,7 +5,8 @@ import { PopupButton } from '@typeform/embed-react';
 
 const Typeform = () => {
     return (
-        <iframe src="https://form.typeform.com/to/Xkh00RVd" width="100%" height="500px" frameborder="0"></iframe>
+        <PopupButton id="https://form.typeform.com/to/Xkh00RVd" className="my-button" style={{ fontSize: 20 }}>click to open form in popup 
+        </PopupButton>
     );
 }
 
