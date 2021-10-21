@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Dropdown from './components/dropdown';
 import Home from './pages';
 import Faq from './pages/faq';
+import Waitlist from './pages/waitlist';
 import Footer from './components/footer';
 import { Switch, Route } from 'react-router-dom';
 
@@ -37,6 +38,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={ Home } />
         <Route path="/faq" exact component={ Faq } />
+        <Route path="/waitlist" exact component={ Waitlist } />
       </Switch>
       <Footer />
     </>
