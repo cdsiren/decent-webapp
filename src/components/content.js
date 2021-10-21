@@ -14,7 +14,7 @@ const Content = () => {
             <div className='content-blocks mx-4 mb-2'> 
                             
                 <h2 className="inline-block w-2/5 lg:text-7xl md:text-6xl sm:text-5xl text-5xl text-purple-700 font-extrabold align-center">How it <br></br>Works</h2>
-
+             
                 <a className='inline-block w-2/5'>
                     <h3 className='font-extrabold lg:text-3xl md:text-2xl sm:text-2xl'>1. Artists List Royalties
                     </h3>
@@ -23,6 +23,7 @@ const Content = () => {
                         <i><b>Most Importantly:</b></i> Decent <u><b>always</b></u> lets you retain 100% of your IP - join our waitlist to receive more info
                     </p>
                 </a>
+
             </div>
             <div className='content-blocks mx-4 mb-16'>
 
