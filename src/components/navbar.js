@@ -5,7 +5,7 @@ import { PopupButton } from '@typeform/embed-react';
 
 const Popup = () => {
   return (
-    <PopupButton id="<Xkh00RVd>" className="my-button">open form 
+    <PopupButton id="Xkh00RVd" className="my-button">click to open form in popup 
     </PopupButton>
   );
 }
