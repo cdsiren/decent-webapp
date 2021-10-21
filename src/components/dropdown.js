@@ -9,10 +9,9 @@ const Dropdown = ({ isOpen, toggle }) => {
         }
         onClick={toggle}
         >
-            <Link className="p-4" to="/">Home</Link>
             <Link className="p-4" to="/faq">FAQ</Link>
             <Link className="p-4" to="/blog">Artist Blog</Link>
-            <a className="my-button" href="https://form.typeform.com/to/Xkh00RVd">Join Waitlist</a>  
+            <a className="my-button" href="https://form.typeform.com/to/Xkh00RVd">Join Waitlist</a>
         </div>
     );
 }
