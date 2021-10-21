@@ -10,9 +10,9 @@ const Dropdown = ({ isOpen, toggle }) => {
         onClick={toggle}
         >
             <Link className="p-4" to="/">Home</Link>
-            <Link className="p-4" to="/menu">FAQ</Link>
-            <Link className="p-4" to="/about">Blog</Link>
-            <Link className="py-1 px-3 bg-purple-700 rounded-full lg:text-p-4 md:text-p-2 sm:text-p-1 hover:bg-green-200 transition duration-300 ease-in-out text-white">Join Waitlist</Link>   
+            <Link className="p-4" to="/faq">FAQ</Link>
+            <a className="p-4" href="https://www.notion.so/51c89a40c7d048f389336b8512846cf0?v=bfb0a35383544bd9bc945bada65d17b7">Artist Blog</a>
+            <a className="my-button" href="https://form.typeform.com/to/Xkh00RVd">Join Waitlist</a>   
         </div>
     );
 }
