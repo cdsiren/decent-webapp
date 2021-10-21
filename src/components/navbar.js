@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import DecentLogo from '../images/decentlogo.png';
 import { PopupButton } from '@typeform/embed-react';
@@ -39,7 +39,7 @@ const navbar = ({ toggle }) => {
             <div className="pr-10 space-x-2 md:block hidden">
                 <Link className="p-4" to="/faq">FAQ</Link>
                 <a className="p-4" href="https://www.notion.so/51c89a40c7d048f389336b8512846cf0?v=bfb0a35383544bd9bc945bada65d17b7">Artist Blog</a>
-                <PopupButton className="my-button" onClick={ Typeform }>Join Waitlist</PopupButton>
+                <PopupButton className="my-button" src={ Typeform }>Join Waitlist</PopupButton>
             </div>   
         </nav>
     );
