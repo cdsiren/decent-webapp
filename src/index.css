@@ -32,12 +32,6 @@
     width: 100%;
 }
 
-.navbar.active {
-    @apply flex justify-between items-center h-14 text-purple-700 relative shadow-md font-Headers bg-purple-100 z-50;
-    position: fixed;
-    width: 100%;
-}
-
 .linear-wipe {
    @apply lg:text-9xl md:text-8xl sm:text-7xl text-7xl mb-10 items-center font-sans font-Headers font-extrabold;
         
