@@ -4,7 +4,7 @@ import Typed from './typed';
 const Content = () => {
     return (
         <>
-        <div className='flex flex-col bg-purple-100 h-screen font-Headers items-center'>
+        <div className='flex flex-col bg-purple-100 h-auto font-Headers items-center'>
 
             <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-purple-700 font-extrabold bg-white p-2 mt-36">Meet Decent
             </h1>
