@@ -4,14 +4,14 @@ import Typed from './typed';
 const Content = () => {
     return (
         <>
-        <div className='flex flex-col bg-purple-100 h-auto font-Headers items-center'>
+        <div className='flex flex-col bg-purple-100 h-screen font-Headers items-center'>
 
-            <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-purple-700 font-extrabold bg-white p-2 mt-16">Meet Decent
+            <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-purple-700 font-extrabold bg-white p-2 mt-36">Meet Decent
             </h1>
 
             <Typed />
 
-            <div className='content-blocks mx-4 mb-2'> 
+            <div className='content-blocks mx-4 mb-6'> 
                             
                 <h2 className="inline-block w-2/5 lg:text-7xl md:text-6xl sm:text-5xl text-5xl text-purple-700 font-extrabold align-center">How it <br></br>Works</h2>
              
@@ -25,7 +25,7 @@ const Content = () => {
                 </a>
 
             </div>
-            <div className='content-blocks mx-4 mb-16'>
+            <div className='content-blocks mx-4 mb-4'>
 
                 <a className='inline-block w-2/5'>
                     <h3 className='font-extrabold lg:text-3xl md:text-2xl sm:text-2xl'>2. Purchase Royalty-Collateralized NFTs

@@ -19,7 +19,7 @@
 }
 
 .my-button {
-    @apply rounded-full text-sm shadow-lg py-1 px-2 bg-purple-700 hover:to-green-200 transition duration-300 ease-in-out text-white;
+    @apply rounded-full text-sm shadow-lg py-1 px-3 bg-purple-700 hover:to-green-200 transition duration-300 ease-in-out text-white;
 }
 
 .hero-button {
@@ -27,7 +27,7 @@
 }
 
 .navbar {
-    @apply flex justify-between items-center h-14 text-purple-700 relative shadow-md font-Headers bg-transparent z-50;
+    @apply flex justify-between items-center h-14 text-purple-700 font-extrabold relative shadow-md font-Headers bg-transparent z-50;
     position: fixed;
     width: 100%;
 }
