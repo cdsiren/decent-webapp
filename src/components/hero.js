@@ -11,7 +11,7 @@ const Hero = () => {
                 <h1 className="linear-wipe my-48">
                     decent
                 </h1>
-                <a className="hero-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeeBf6PKTrFZGjo49oUoriBSTO5pfiPS4c5K18ktJcJ8HzGZQ/viewform?usp=sf_link">
+                <Link className="hero-button" to="/waitlist">
                     Join Waitlist 
                     <svg 
                     className="w-6 h-6 ml-2" 
@@ -28,7 +28,7 @@ const Hero = () => {
                         clipRule="evenodd" 
                         />
                     </svg>
-                </a>
+                </Link>
 
                 <div className='flex flex-wrap my-7 justify-items-center space-x-9 table-auto'>
                     <a href='https://discord.gg/KE59zuBG'>

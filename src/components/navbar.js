@@ -32,7 +32,7 @@ const navbar = ({ toggle }) => {
             <div className="pr-10 space-x-2 md:block hidden">
                 <Link className="p-4" to="/faq">FAQ</Link>
                 <a className="p-4" href="https://mirror.xyz/0x673Fc290d919684A1B1E46AA69152f7b56FBADD8/qsvUuJOGdjj_o49zqtIaSx8wh-92usgJMkkomv-LHNs">Blog</a>
-                <a className="my-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeeBf6PKTrFZGjo49oUoriBSTO5pfiPS4c5K18ktJcJ8HzGZQ/viewform?usp=sf_link">Join Waitlist</a>
+                <Link className="my-button" to="/waitlist">Join Waitlist</Link>
             </div>   
         </nav>
     );
