@@ -11,7 +11,7 @@ const Hero = () => {
                 <h1 className="linear-wipe my-48">
                     decent
                 </h1>
-                <a className="hero-button" href="https://form.typeform.com/to/Xkh00RVd">
+                <a className="hero-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeeBf6PKTrFZGjo49oUoriBSTO5pfiPS4c5K18ktJcJ8HzGZQ/viewform?usp=sf_link">
                     Join Waitlist 
                     <svg 
                     className="w-6 h-6 ml-2" 

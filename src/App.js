@@ -38,7 +38,6 @@ function App() {
       <Switch>
         <Route path="/" exact component={ Home } />
         <Route path="/faq" exact component={ Faq } />
-        <Route path="/blog" exact component={ blog } />
       </Switch>
       <Footer />
     </>
