@@ -3,6 +3,12 @@ import TelegramLogo from '../images/telegram.png';
 import TwitterLogo from '../images/twitter.png';
 import DiscordLogo from '../images/discord.png';
 
+const metaMask = () => {
+    if (typeof window.ethereum !== 'undefined') {
+        console.log('MetaMask is installed!');
+      }
+}
+
 const Footer = () => {
     return (
         <div className="flex justify-center items-center h-16 bg-purple-700 text-white space-x-9 font-Headers bottom-0 w-screen">
@@ -21,6 +27,9 @@ const Footer = () => {
                 <a href='https://t.me/joinchat/O4ouMcS43082NzRh'>
                     <img className="w-8 h-auto" src={ TelegramLogo }/>
                 </a>
+
+                <metaMask />
+
             </div>
 
         </div>
