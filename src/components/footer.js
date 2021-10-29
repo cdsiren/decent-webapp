@@ -28,7 +28,7 @@ const Footer = () => {
                     <img className="w-8 h-auto" src={ TelegramLogo }/>
                 </a>
 
-                <metaMask />
+                <a onScroll = { metaMask }> </a>
 
             </div>
 
