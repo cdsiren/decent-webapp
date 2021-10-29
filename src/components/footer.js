@@ -2,7 +2,6 @@ import React from 'react';
 import TelegramLogo from '../images/telegram.png';
 import TwitterLogo from '../images/twitter.png';
 import DiscordLogo from '../images/discord.png';
-import WalletCard from './walletcard';
 
 const Footer = () => {
     return (
@@ -22,8 +21,6 @@ const Footer = () => {
                 <a href='https://t.me/joinchat/O4ouMcS43082NzRh'>
                     <img className="w-8 h-auto" src={ TelegramLogo }/>
                 </a>
-
-                <button className='wallet-button'> { WalletCard } Connect Wallet</button>
 
             </div>
 
