@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import DecentLogo from '../images/decentlogo.png';
-/*import { InjectedConnector } from '@web3-react/injected-connector';*/
 
 const navbar = ({ toggle }) => {
 
@@ -38,9 +37,5 @@ const navbar = ({ toggle }) => {
         </nav>
     );
 };
-
-/*export const injected = new InjectedConnector({
-    supportedChainIds: [1,3,4,5,42],
-})*/
 
 export default navbar

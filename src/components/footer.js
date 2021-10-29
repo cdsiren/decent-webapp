@@ -2,12 +2,7 @@ import React from 'react';
 import TelegramLogo from '../images/telegram.png';
 import TwitterLogo from '../images/twitter.png';
 import DiscordLogo from '../images/discord.png';
-
-const metaMask = () => {
-    if (typeof window.ethereum !== 'undefined') {
-        console.log('MetaMask is installed!');
-      }
-}
+import WalletCard from './walletcard';
 
 const Footer = () => {
     return (
@@ -28,7 +23,7 @@ const Footer = () => {
                     <img className="w-8 h-auto" src={ TelegramLogo }/>
                 </a>
 
-                <a onScroll = { metaMask }> </a>
+                <button className='wallet-button'> { WalletCard } Connect Wallet</button>
 
             </div>
 
