@@ -3,6 +3,7 @@ import Hero from '../components/hero';
 import Content from '../components/content';
 
 const Home = () => {
+    
     return (
         <>
             <Hero />

@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import DecentLogo from '../images/decentlogo.png';
 
+const Wallet = () => {
+    
+}
+
 const navbar = ({ toggle }) => {
 
     return (

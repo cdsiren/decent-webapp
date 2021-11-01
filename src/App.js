@@ -8,9 +8,26 @@ import waitlist from './pages/waitlist';
 import Footer from './components/footer';
 import { Switch, Route } from 'react-router-dom';
 
-function App() {
-  const [isOpen, setIsOpen] = useState(false);
+//MetaMask Connection
+import { Web3ReactProvider } from '@web3-react/core';
+import Web3 from 'web3';
 
+function getLibrary(provider) {
+  return new Web3(provider)
+}
+
+function WalletConnect ({ Component, pageProps }) {
+  return (
+    <Web3ReactProvider getLibrary={getLibrary}>
+      <Component {...pageProps} />
+    </Web3ReactProvider>
+  )
+}
+
+function App() {
+ 
+  //Menu Toggle
+  const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
   };
