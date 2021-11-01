@@ -10,8 +10,10 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
     "@usedapp/core": "^0.5.4",
     "@web3-react/core": "^6.1.9",
     "@web3-react/injected-connector": "^6.0.7",
@@ -19,7 +21,7 @@
     "bootstrap": "^5.1.1",
     "dns-packet": "^5.3.0",
     "ethers": "^5.5.1",
-    "framer-motion": "^5.0.0",
+    "framer-motion": "^5.0.1",
     "glob-parent": "^6.0.2",
     "immer": "^9.0.6",
     "is-svg": "^4.3.1",
@@ -35,6 +37,7 @@
     "ssri": "^8.0.1",
     "tar": "^6.1.11",
     "typed.js": "^2.0.12",
+    "typescript": "^4.4.4",
     "web-vitals": "^1.0.1",
     "web3": "^1.6.0"
   },
@@ -63,6 +66,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.2",
     "autoprefixer": "^9.8.8",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
