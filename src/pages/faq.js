@@ -45,7 +45,7 @@ const Faq = () => {
             Two things: 
             <br></br>
             <br></br>
-            1) Decent building the first protocol to bring royalties on chain, enabling artists to batch mint NFTs that are actually collateralized by their royalties.  
+            1) Decent is building the first protocol to bring royalties on chain, enabling artists to batch mint NFTs that are actually collateralized by their royalties.  
             <br></br>
             <br></br>
             2) Decent is the first web3 platform offering flexible financing solutions for artists.  Decent's platform architecture allows artists to choose the percentage of their royalties that they would like to list and the amount of time for which they would like to let fans participate in their royalties.  
