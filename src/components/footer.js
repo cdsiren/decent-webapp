@@ -2,12 +2,11 @@ import React from 'react';
 import TelegramLogo from '../images/telegram.png';
 import TwitterLogo from '../images/twitter.png';
 import DiscordLogo from '../images/discord.png';
-import WalletApp from './WalletApp';
 
 const Footer = () => {
 
     return (
-        <div className="flex justify-center items-center h-16 bg-purple-700 text-white space-x-9 font-Headers bottom-0 w-screen">
+        <div className="flex justify-center items-center h-16 bg-purple-700 text-white space-x-9 font-Headers bottom-0 w-screen">        
             <p>
                 © 2021
             </p>
@@ -27,7 +26,7 @@ const Footer = () => {
             </div>
 
         </div>
-        );
+    );
 }
 
 export default Footer

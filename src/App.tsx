@@ -8,7 +8,7 @@ import waitlist from './pages/waitlist';
 import Footer from './components/footer';
 import { Switch, Route } from 'react-router-dom';
 
-function App() {
+export default function App() {
 
   //Menu Toggle
   const [isOpen, setIsOpen] = useState(false);
@@ -45,5 +45,3 @@ function App() {
     </>
   );
 }
-
-export default App;

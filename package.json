@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "^1.6.10",
     "@craco/craco": "^6.3.0",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
@@ -19,9 +18,9 @@
     "@web3-react/injected-connector": "^6.0.7",
     "ansi-html": "0.0.7",
     "bootstrap": "^5.1.1",
+    "craco": "0.0.3",
     "dns-packet": "^5.3.0",
     "ethers": "^5.5.1",
-    "framer-motion": "^5.0.1",
     "glob-parent": "^6.0.2",
     "immer": "^9.0.6",
     "is-svg": "^4.3.1",
@@ -69,6 +68,7 @@
     "@types/react-router-dom": "^5.3.2",
     "autoprefixer": "^9.8.8",
     "postcss": "^7.0.39",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16",
+    "webpack": "^4.44.2"
   }
 }

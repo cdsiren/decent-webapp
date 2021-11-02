@@ -1,13 +1,10 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import Layout from './Wallet/Layout';
+import ConnectButton from './Wallet/ConnectButton';
 
 export default function App() {
+
   return (
-    // lets us use Chakra UI syntax across our app:
-    <ChakraProvider>
-      <Layout>
-        <p style = {{ color: 'white' }}>Hello, world!</p>
-      </Layout>
-    </ChakraProvider>
+    <button>
+      <ConnectButton />
+    </button>
   )
 }
