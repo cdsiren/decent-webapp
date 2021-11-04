@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import DecentLogo from '../images/decentlogo.png';
 import WalletApp from './WalletApp';
 
-const navbar = ({ toggle }) => {
+const Navbar = ({ toggle }) => {
+
+    const [navbar,setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 80) {
+            setNavbar(true)
+        } else {
+            setNavbar(false)
+        };
+    };
+
+    window.addEventListener('scroll', changeBackground)
 
     return (
-        <nav className='navbar' role="navigation">
+        <nav className={navbar ? 'navbar active' : 'navbar'} role="navigation">
 
             <Link to="/" className='pl-10'>
                 <img className="logo w-24 h-auto" src={ DecentLogo } 
@@ -43,4 +55,4 @@ const navbar = ({ toggle }) => {
     );
 };
 
-export default navbar
+export default Navbar
