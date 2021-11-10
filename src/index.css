@@ -43,7 +43,7 @@
 }
 
 .linear-wipe {
-   @apply lg:text-9xl md:text-8xl sm:text-7xl text-7xl mb-10 items-center font-sans font-Headers font-extrabold;
+   @apply lg:text-9xl md:text-8xl sm:text-7xl text-7xl mb-10 items-center font-Headers font-extrabold;
         
    text-transform: uppercase;
    background-image: linear-gradient(to right, #40ffac, #40ffff, #7a69ff,#5d00ff,#40ffac);
