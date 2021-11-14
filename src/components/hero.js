@@ -31,7 +31,7 @@ const Hero = () => {
                 </Link>
 
                 <div className='flex flex-wrap my-7 justify-items-center space-x-9 table-auto'>
-                    <a href='https://discord.gg/KE59zuBG'>
+                    <a href='https://discord.gg/ESfB2qeTXm'>
                         <img className="w-10 h-auto" src={ DiscordLogo }/>
                     </a>
                     <a href='https://twitter.com/decentdotxyz'>
