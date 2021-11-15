@@ -34,7 +34,7 @@ const Hero = () => {
                     <a href='https://discord.gg/ESfB2qeTXm'>
                         <img className="w-10 h-auto" src={ DiscordLogo }/>
                     </a>
-                    <a href='https://twitter.com/decentdotxyz'>
+                    <a href='https://twitter.com/decentxyz'>
                         <img className="w-9 h-auto" src={ TwitterLogo }/>
                     </a>
 
