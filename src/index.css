@@ -67,6 +67,6 @@
   }
 
   .content-blocks {
-      @apply inline-flex justify-between items-center space-x-16 lg:mx-20 md:mx-16 sm:mx-12;
+      @apply w-full lg:px-32 md:px-32 sm:px-16 grid-cols-1 inline-flex justify-between items-center space-x-16 lg:space-y-1 md:space-y-1 sm:space-y-0;
       vertical-align: top;
   }
